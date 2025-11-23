@@ -1,6 +1,6 @@
 <div align="center">
 
-# [EMNLP 2025] VideoEraser: Concept Erasure in Text-to-Video Diffusion Models
+# VideoEraser: Concept Erasure in Text-to-Video Diffusion Models
 
 [![EMNLP 2025](https://img.shields.io/badge/EMNLP-2025-blue.svg)](https://2025.emnlp.org/) [![arXiv](https://img.shields.io/badge/arXiv-2508.15314-b31b1b.svg)](https://arxiv.org/abs/2508.15314)
 
@@ -24,7 +24,7 @@ Besides, VideoEraser is applicable to multiple T2V diffusion models, including U
 
 ### Video Demonstrations
 
-<table width="100%">
+<table width="80%">
 <thead>
 <tr>
 <th></th>
