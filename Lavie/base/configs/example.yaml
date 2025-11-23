@@ -1,0 +1,42 @@
+# Simple example config for VideoEraser with LaVie
+# Use command-line arguments to override prompt and unlearn_prompt (erased_concept)
+
+# Model configuration
+ckpt_path: ../pretrained_models/lavie_base.pt
+pretrained_path: ../pretrained_models  # Contains stable-diffusion-v1-4
+model: UNet
+
+# Video parameters
+video_length: 16
+image_size:
+  - 320
+  - 512
+
+# Diffusion parameters
+beta_start: 0.0001
+beta_end: 0.02
+beta_schedule: linear
+sample_method: ddpm
+num_sampling_steps: 50
+
+# Generation settings
+seed: 42
+guidance_scale: 7.5
+use_fp16: true
+use_compile: false
+
+# VideoEraser settings
+unlearn: true
+num_unlearning_steps: 10
+unlearning_lr: 1e-3
+
+# Default prompts (can be overridden by command-line)
+text_prompt:
+  - "A man running under starry night by Van Gogh."
+
+unlearn_prompt: "Van Gogh"
+
+# Output
+output_folder: ../res/base/
+run_time: 0
+

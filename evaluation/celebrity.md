@@ -1,0 +1,1 @@
+Please follow https://github.com/Giphy/celeb-detection-oss.

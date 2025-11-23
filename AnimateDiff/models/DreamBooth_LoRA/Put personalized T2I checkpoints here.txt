@@ -1,0 +1,2 @@
+realisticVisionV60B1_v51VAE.safetensors
+model.safetensors

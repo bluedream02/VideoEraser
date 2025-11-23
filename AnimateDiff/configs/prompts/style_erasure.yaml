@@ -1,0 +1,23 @@
+# Artistic Style Erasure Example
+# Usage: python scripts/animate.py --config configs/prompts/style_erasure.yaml --erased-concept "Van Gogh"
+
+- inference_config: "configs/inference/inference-v1.yaml"
+  motion_module: "models/Motion_Module/mm_sd_v15.ckpt"
+  
+  seed: 123
+  steps: 25
+  guidance_scale: 7.5
+  
+  W: 512
+  H: 512
+  L: 16
+  
+  prompt:
+    - "A man running under starry night by Van Gogh."
+  
+  n_prompt:
+    - "blurry, low quality, photograph, realistic"
+  
+  copyright_concept:
+    - "Van Gogh"
+

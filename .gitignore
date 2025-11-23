@@ -1,0 +1,107 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environment
+venv/
+ENV/
+env/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# PyCharm
+.idea/
+
+# VSCode
+.vscode/
+
+# Environment variables
+.env
+.env.local
+
+# Model weights (too large to upload)
+*.pth
+*.pt
+*.ckpt
+*.safetensors
+pretrained_models/*
+!pretrained_models/*.txt
+models/*/Put*.txt
+
+# Output files
+outputs/
+samples/
+output/
+evaluation_results/
+*.mp4
+*.gif
+*.avi
+*.mov
+
+# But keep demo GIFs in assets folder
+!assets/*.gif
+
+# Temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Data files
+*.csv
+!**/accuracy_summary.csv.example
+*.json
+!configs/**/*.json
+
+# Test files
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Documentation build
+docs/_build/
+site/
+
+# Other
+*.bak
+backup.txt
+
+# Development documents (Chinese)
+*报告.md
+*总结.md
+*清单.txt
+
+# PDF files
+*.pdf
+
+# Test and development folders
+edit/
+*.png
+!assets/*.png
