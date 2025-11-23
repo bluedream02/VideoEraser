@@ -51,10 +51,10 @@ Besides, VideoEraser is applicable to multiple T2V diffusion models, including U
 </tr>
 <tr>
 <td><strong>Original Video</strong></td>
-<td><video src="assets/object.mp4" width="160"></video></td>
-<td><video src="assets/celebrity.mp4" width="160"></video></td>
-<td><video src="assets/artist.mp4" width="160"></video></td>
-<td><video src="assets/explicit.mp4" width="160"></video></td>
+<td><img src="assets/object.gif" width="160"></td>
+<td><img src="assets/celebrity.gif" width="160"></td>
+<td><img src="assets/artist.gif" width="160"></td>
+<td><img src="assets/explicit.gif" width="160"></td>
 </tr>
 <tr>
 <td><strong>Erased Concept</strong></td>
