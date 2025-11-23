@@ -51,10 +51,10 @@ Besides, VideoEraser is applicable to multiple T2V diffusion models, including U
 </tr>
 <tr>
 <td><strong>Original Video</strong></td>
-<td><img src="assets/object.gif" width="160"></td>
-<td><img src="assets/celebrity.gif" width="160"></td>
-<td><img src="assets/artist.gif" width="160"></td>
-<td><img src="assets/explicit.gif" width="160"></td>
+<td><img src="assets/object.gif" width="155"></td>
+<td><img src="assets/celebrity.gif" width="155"></td>
+<td><img src="assets/artist.gif" width="155"></td>
+<td><img src="assets/explicit.gif" width="155"></td>
 </tr>
 <tr>
 <td><strong>Erased Concept</strong></td>
@@ -65,10 +65,10 @@ Besides, VideoEraser is applicable to multiple T2V diffusion models, including U
 </tr>
 <tr>
 <td><strong>Erased Video</strong></td>
-<td><video src="assets/object_removal.mp4" width="160"></video></td>
-<td><video src="assets/celebrity_removal.mp4" width="160"></video></td>
-<td><video src="assets/artist_removal.mp4" width="160"></video></td>
-<td><video src="assets/explicit_removal.mp4" width="160"></video></td>
+<td><img src="assets/object_removal.gif" width="155"></td>
+<td><img src="assets/celebrity_removal.gif" width="155"></td>
+<td><img src="assets/artist_removal.gif" width="155"></td>
+<td><img src="assets/explicit_removal.gif" width="155"></td>
 </tr>
 </tbody>
 </table>
