@@ -54,8 +54,8 @@ Besides, VideoEraser is applicable to multiple T2V diffusion models, including U
 </tr>
 <tr>
 <td><strong>Original Video</strong></td>
-<td><video poster="https://github.com/user-attachments/assets/8f3ef140-9dd0-43ef-9dd8-d51100dc7fd1" preload="auto" src="https://github.com/user-attachments/assets/8f3ef140-9dd0-43ef-9dd8-d51100dc7fd1" width="155"></video></td>
-<td><video poster="https://github.com/user-attachments/assets/8098c0de-e78b-41ff-8735-604d7687169b" preload="auto" src="https://github.com/user-attachments/assets/8098c0de-e78b-41ff-8735-604d7687169b" width="155"></video></td>
+<td><video poster="https://github.com/user-attachments/assets/dcc4cdd4-12bc-484a-813e-3e1d8ce2dab9" preload="auto" src="https://github.com/user-attachments/assets/dcc4cdd4-12bc-484a-813e-3e1d8ce2dab9" width="155"></video></td>
+<td><video poster="https://github.com/user-attachments/assets/007d2ffa-bd0e-4a45-9640-efe68a6dd9f9" preload="auto" src="https://github.com/user-attachments/assets/007d2ffa-bd0e-4a45-9640-efe68a6dd9f9" width="155"></video></td>
 <td><video poster="https://github.com/user-attachments/assets/3c3ffc2c-16a2-4112-a392-b7feab99e691" preload="auto" src="https://github.com/user-attachments/assets/3c3ffc2c-16a2-4112-a392-b7feab99e691" width="155"></video></td>
 <td><video poster="https://github.com/user-attachments/assets/9692091e-1fb5-49d1-9d77-7ccf4a1e9464" preload="auto" src="https://github.com/user-attachments/assets/9692091e-1fb5-49d1-9d77-7ccf4a1e9464" width="155"></video></td>
 </tr>
@@ -68,13 +68,25 @@ Besides, VideoEraser is applicable to multiple T2V diffusion models, including U
 </tr>
 <tr>
 <td><strong>Erased Video</strong></td>
-<td><video poster="https://github.com/user-attachments/assets/8845e37a-652b-439b-ad95-bd4a76547da4" preload="auto" src="https://github.com/user-attachments/assets/8845e37a-652b-439b-ad95-bd4a76547da4" width="155"></video></td>
-<td><video poster="https://github.com/user-attachments/assets/a4c0849a-fab7-4287-92b2-a3df9b2ff6e4" preload="auto" src="https://github.com/user-attachments/assets/a4c0849a-fab7-4287-92b2-a3df9b2ff6e4" width="155"></video></td>
+<td><video poster="https://github.com/user-attachments/assets/fe3d514d-c8e4-4646-b85b-743dc01ec4d2" preload="auto" src="https://github.com/user-attachments/assets/fe3d514d-c8e4-4646-b85b-743dc01ec4d2" width="155"></video></td>
+<td><video poster="https://github.com/user-attachments/assets/9fef750f-cc22-4035-9102-78573e95174c" preload="auto" src="https://github.com/user-attachments/assets/9fef750f-cc22-4035-9102-78573e95174c" width="155"></video></td>
 <td><video poster="https://github.com/user-attachments/assets/6eeddc89-8e81-4719-974d-5db66fabd3dd" preload="auto" src="https://github.com/user-attachments/assets/6eeddc89-8e81-4719-974d-5db66fabd3dd" width="155"></video></td>
 <td><video poster="https://github.com/user-attachments/assets/ecf2b296-ed2e-416c-9972-887191a0b53a" preload="auto" src="https://github.com/user-attachments/assets/ecf2b296-ed2e-416c-9972-887191a0b53a" width="155"></video></td>
 </tr>
 </tbody>
 </table>
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
