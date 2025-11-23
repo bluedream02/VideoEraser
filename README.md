@@ -51,10 +51,10 @@ Besides, VideoEraser is applicable to multiple T2V diffusion models, including U
 </tr>
 <tr>
 <td><strong>Original Video</strong></td>
-<td><video src="assets/object.gif" width="160" loop autoplay muted playsinline></video></td>
-<td><video src="assets/celebrity.gif" width="160" loop autoplay muted playsinline></video></td>
-<td><video src="assets/artist.gif" width="160" loop autoplay muted playsinline></video></td>
-<td><video src="assets/explicit.gif" width="160" loop autoplay muted playsinline></video></td>
+<td><img src="assets/object.gif" width="160"></td>
+<td><img src="assets/celebrity.gif" width="160"></td>
+<td><img src="assets/artist.gif" width="160"></td>
+<td><img src="assets/explicit.gif" width="160"></td>
 </tr>
 <tr>
 <td><strong>Erased Concept</strong></td>
@@ -65,10 +65,10 @@ Besides, VideoEraser is applicable to multiple T2V diffusion models, including U
 </tr>
 <tr>
 <td><strong>Erased Video</strong></td>
-<td><video src="assets/object_removal.gif" width="160" loop autoplay muted playsinline></video></td>
-<td><video src="assets/celebrity_removal.gif" width="160" loop autoplay muted playsinline></video></td>
-<td><video src="assets/artist_removal.gif" width="160" loop autoplay muted playsinline></video></td>
-<td><video src="assets/explicit_removal.gif" width="160" loop autoplay muted playsinline></video></td>
+<td><img src="assets/object_removal.gif" width="160"></td>
+<td><img src="assets/celebrity_removal.gif" width="160"></td>
+<td><img src="assets/artist_removal.gif" width="160"></td>
+<td><img src="assets/explicit_removal.gif" width="160"></td>
 </tr>
 </tbody>
 </table>
@@ -101,18 +101,7 @@ pip install -r requirements.txt
 **Download Pre-trained Models:**
 
 ```bash
-# Option A: Use HuggingFace model ID (recommended, no manual download needed)
 python scripts/animate.py --pretrained-model-path stable-diffusion-v1-5/stable-diffusion-v1-5
-
-# Option B: Download models manually
-mkdir -p models/Motion_Module
-cd models
-
-# Download Stable Diffusion v1-5
-git lfs install
-git clone https://huggingface.co/stable-diffusion-v1-5/stable-diffusion-v1-5
-
-# Download Motion Module
 cd Motion_Module
 wget https://huggingface.co/guoyww/animatediff/resolve/main/mm_sd_v15.ckpt
 cd ../..
@@ -132,8 +121,6 @@ AnimateDiff/
 
 ```bash
 cd VideoEraser/ModelScope
-
-# Create environment
 conda create -n modelscope python=3.10
 conda activate modelscope
 pip install -r requirements.txt
@@ -142,15 +129,10 @@ pip install -r requirements.txt
 **Download Pre-trained Models:**
 
 ```bash
-# Download models manually
 mkdir -p models
 cd models
-
-# Download ZeroScope
 git lfs install
 git clone https://huggingface.co/cerspense/zeroscope_v2_576w
-
-# Or download ModelScope
 git clone https://huggingface.co/damo-vilab/text-to-video-ms-1.7b
 cd ..
 ```
@@ -169,8 +151,6 @@ ModelScope/
 
 ```bash
 cd VideoEraser/Lavie
-
-# Create environment
 conda env create -f environment.yml
 conda activate lavie
 ```
@@ -182,17 +162,11 @@ Download pre-trained LaVie models, Stable Diffusion 1.4, and stable-diffusion-x4
 ```bash
 mkdir -p pretrained_models
 cd pretrained_models
-
-# Download LaVie checkpoints
 wget https://huggingface.co/Vchitect/LaVie/resolve/main/lavie_base.pt
 wget https://huggingface.co/Vchitect/LaVie/resolve/main/lavie_interpolation.pt
 wget https://huggingface.co/Vchitect/LaVie/resolve/main/lavie_vsr.pt
-
-# Download Stable Diffusion v1-4
 git lfs install
 git clone https://huggingface.co/CompVis/stable-diffusion-v1-4
-
-# Download Stable Diffusion x4 Upscaler
 git clone https://huggingface.co/stabilityai/stable-diffusion-x4-upscaler
 cd ..
 ```
@@ -214,8 +188,6 @@ Lavie/
 
 ```bash
 cd VideoEraser/CogVideoX
-
-# Create environment
 conda create -n cogvideox python=3.10
 conda activate cogvideox
 pip install -r requirements.txt
@@ -224,11 +196,8 @@ pip install -r requirements.txt
 **Download Pre-trained Models:**
 
 ```bash
-# Download models manually
 mkdir -p models
 cd models
-
-#  download CogVideoX-5b
 git clone https://huggingface.co/THUDM/CogVideoX-5b
 cd ..
 ```
@@ -237,10 +206,7 @@ Expected structure:
 ```
 CogVideoX/
 ├── models/
-│   ├── CogVideoX-2b/                 # 2B parameters (recommended for testing)
-│   │   ├── ...
-│   └── CogVideoX-5b/                 # 5B parameters (best quality)
-│       ├── ...
+│   ├── CogVideoX-5b/
 ```
 
 
@@ -250,7 +216,6 @@ CogVideoX/
 
 ```bash
 cd AnimateDiff
-
 python scripts/animate.py \
     --pretrained-model-path stable-diffusion-v1-5/stable-diffusion-v1-5 \
     --prompt "A man running under starry night by Van Gogh." \
@@ -265,7 +230,6 @@ See [AnimateDiff/README.md](AnimateDiff/README.md) for detailed usage.
 
 ```bash
 cd ModelScope
-
 # Simple usage with HuggingFace model
 python inference.py \
     --model cerspense/zeroscope_v2_576w \
@@ -280,14 +244,6 @@ python inference.py \
     --prompt "A man running under starry night by Van Gogh." \
     --erased-concept "Van Gogh" \
     --output ./outputs
-
-# Using short form arguments
-python inference.py \
-    -m cerspense/zeroscope_v2_576w \
-    -p "A man running under starry night by Van Gogh." \
-    -e "Van Gogh" \
-    -o ./outputs \
-    -r 42
 ```
 
 See [ModelScope/README.md](ModelScope/README.md) for detailed usage.
@@ -296,8 +252,6 @@ See [ModelScope/README.md](ModelScope/README.md) for detailed usage.
 
 ```bash
 cd Lavie/base
-
-# Command-line usage (recommended)
 python pipelines/sample.py \
     --config configs/example.yaml \
     --text-prompt "A man running under starry night by Van Gogh." \
@@ -314,8 +268,6 @@ See [Lavie/README.md](Lavie/README.md) for detailed usage.
 
 ```bash
 cd CogVideoX
-
-# Simple CLI usage (note: uses --unsafe_concept)
 python cli_demo.py \
     --prompt "A man running under starry night by Van Gogh." \
     --unsafe_concept "Van Gogh" \
