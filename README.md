@@ -31,6 +31,9 @@ Besides, VideoEraser is applicable to multiple T2V diffusion models, including U
 <th>Object Erasure</th>
 <th>Celebrity Erasure</th>
 <th>Artistic Style Erasure</th>
+
+
+
 <th>Explicit Content Erasure</th>
 </tr>
 </thead>
@@ -51,7 +54,7 @@ Besides, VideoEraser is applicable to multiple T2V diffusion models, including U
 </tr>
 <tr>
 <td><strong>Original Video</strong></td>
-<td><img src="assets/object.gif" width="155"></td>
+<td>https://github.com/user-attachments/assets/3c3ffc2c-16a2-4112-a392-b7feab99e691</td>
 <td><img src="assets/celebrity.gif" width="155"></td>
 <td><img src="assets/artist.gif" width="155"></td>
 <td><img src="assets/explicit.gif" width="155"></td>
