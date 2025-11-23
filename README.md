@@ -59,6 +59,19 @@ Besides, VideoEraser is applicable to multiple T2V diffusion models, including U
 <td><img src="assets/artist.gif" width="155"></td>
 <td><img src="assets/explicit.gif" width="155"></td>
 </tr>
+
+artist
+<td><video poster="https://github.com/user-attachments/assets/3c3ffc2c-16a2-4112-a392-b7feab99e691" preload="auto" src="https://github.com/user-attachments/assets/3c3ffc2c-16a2-4112-a392-b7feab99e691" width="155"></video></td>
+https://github.com/user-attachments/assets/6eeddc89-8e81-4719-974d-5db66fabd3dd
+
+celebrity
+![celebrity](https://github.com/user-attachments/assets/8098c0de-e78b-41ff-8735-604d7687169b)
+![celebrity_removal](https://github.com/user-attachments/assets/a4c0849a-fab7-4287-92b2-a3df9b2ff6e4)
+
+
+object
+
+
 <tr>
 <td><strong>Erased Concept</strong></td>
 <td>rally car</td>
